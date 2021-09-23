@@ -11,7 +11,7 @@ print("This program will take certain statistics and information to estimate the
 births = float(input("How many births per second?"))
 deaths = float(input("How many deaths per second?"))
 migrations = float(input("How many migrations per second? (If you want to use emigration, enter negative number)."))
-current_pop = float(input("What is the current population"))
+current_pop = float(input("What is the current population?"))
 years_in_future = float(input("How many years into the future would you like to estimate?"))
 
 # seconds in years
