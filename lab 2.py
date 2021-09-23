@@ -24,4 +24,9 @@ migrations_total = migrations * seconds_in_future
 
 # find total future pop
 future_pop = current_pop + births_total - deaths_total + migrations_total
-print("The estimate for the total population is:", future_pop)
+
+# if pop is neg
+if future_pop > 0:
+    print("The estimate for the total population is:", future_pop)
+else:
+    print("Sorry, your population has gone extinct.")
